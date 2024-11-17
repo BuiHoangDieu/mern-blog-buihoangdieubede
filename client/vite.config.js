@@ -12,4 +12,11 @@ export default defineConfig({
     },
   },
   plugins: [react()],
+  css: {
+    preprocessorOptions: {
+      css: {
+        additionalData: `@import "highlight.js/styles/monokai-sublime.css";`,
+      },
+    },
+  },
 });
