@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100vh;
+}
+
+.ql-editor {
+  fotn-size: 20px;
+}
+
+.ql-snow .ql-editor pre.ql-syntax {
+  background-color: #23241f;
+  color: #f8f8f2;
+  overflow: visible;
+}
+
+.ql-snow .ql-editor pre {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+.ql-snow .ql-editor code {
+  font-family: "Courier New", Courier, monospace;
+  color: #d63384;
+}
+
+pre.ql-syntax {
+  border-radius: 4px;
+  padding: 8px 12px;
+  overflow-x: auto;
+  background-color: #23241f;
+  color: #8dc572;
+}
+
+.post-content p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.post-content h1 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.post-content h2 {
+  font-size: 1.4rem;
+  margin-top: 1, 4rem;
+  margin-bottom: 1rem;
+}
+
+.post-content a {
+  color: rgba(73, 149, 199);
+  text-decoration: none;
+}
+
+.post-content a:hover {
+  text-decoration: underline;
+}
+
+.dark .post-content a {
+  color: #90cdf4;
+}
