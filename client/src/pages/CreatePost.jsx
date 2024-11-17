@@ -11,7 +11,6 @@ import {
   getStorage,
 } from "firebase/storage";
 import "react-quill/dist/quill.snow.css";
-import "highlight.js/styles/monokai-sublime.min.css";
 
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";

@@ -10,7 +10,6 @@ import {
   uploadBytesResumable,
   getStorage,
 } from "firebase/storage";
-import "highlight.js/styles/monokai-sublime.min.css";
 
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
