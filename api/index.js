@@ -6,13 +6,17 @@ import userRoute from "./routes/user.route.js";
 import authRoute from "./routes/auth.route.js";
 import postRoute from "./routes/post.route.js";
 import commentRoute from "./routes/comment.route.js";
+import cors from "cors";
 import path from "path";
 
 dotenv.config();
 const app = express();
+app.use(cors());
 
 app.use(express.json());
 app.use(cookieParser());
+app.use(express.json()); // for json
+app.use(express.urlencoded({ extended: true }));
 
 mongoose
   .connect(process.env.MONGO_DB_URL)
