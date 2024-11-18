@@ -75,7 +75,7 @@ const DashComment = () => {
         setComments((prev) =>
           prev.filter((post) => post._id !== commentIdToDelete)
         );
-        console.log(data.message);
+        // console.log(data.message);
       }
     } catch (error) {
       console.log(error.message);

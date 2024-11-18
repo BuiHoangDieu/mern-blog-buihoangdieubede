@@ -19,7 +19,7 @@ const SearchPage = () => {
   const [loading, setLoading] = useState(true);
   const [showMore, setShowMore] = useState(false);
 
-  console.log(sidebarData);
+  // console.log(sidebarData);
 
   useEffect(() => {
     const urlParams = new URLSearchParams(location.search);

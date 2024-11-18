@@ -68,7 +68,7 @@ const DashUsers = () => {
         console.log(data.message);
       } else {
         setUsers((prev) => prev.filter((post) => post._id !== userIdToDelete));
-        console.log(data.message);
+        // console.log(data.message);
       }
     } catch (error) {
       console.log(error.message);

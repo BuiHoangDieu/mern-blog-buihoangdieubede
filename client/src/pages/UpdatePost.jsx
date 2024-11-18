@@ -41,7 +41,7 @@ const UpdatePost = () => {
   const theme = useSelector((state) => state.theme.theme);
   const navigate = useNavigate();
 
-  console.log(formData);
+  // console.log(formData);
 
   const handleInputChange = (e) => {
     const { id, value } = e.target;
@@ -177,7 +177,7 @@ const UpdatePost = () => {
       } else {
         setPublishError(null);
         navigate(`/post/${data.slug}`);
-        console.log(data);
+        // console.log(data);
       }
     } catch (error) {
       setPublishError("Failed to update post");

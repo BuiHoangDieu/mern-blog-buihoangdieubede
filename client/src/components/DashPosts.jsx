@@ -114,6 +114,7 @@ const DashPosts = () => {
                     <Table.Cell>
                       <Link to={`/post/${post.slug}`}>
                         <img
+                          crossOrigin="anonymous"
                           src={post.image}
                           alt={post.title}
                           className="w-20  object-cover "

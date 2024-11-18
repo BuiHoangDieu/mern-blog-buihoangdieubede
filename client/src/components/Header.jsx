@@ -26,7 +26,7 @@ const Header = () => {
   const location = useLocation();
   const [searchTerm, setSearchTerm] = React.useState("");
 
-  console.log(searchTerm);
+  // console.log(searchTerm);
 
   useEffect(() => {
     const urlParams = new URLSearchParams(location.search);
@@ -110,7 +110,7 @@ const Header = () => {
                 <Avatar
                   alt="avatar"
                   crossOrigin="anonymous"
-                  img={
+                  src={
                     currentUser.profilePicture ||
                     currentUser.rest.profilePicture
                   }

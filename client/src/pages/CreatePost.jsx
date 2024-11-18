@@ -69,7 +69,7 @@ const CreatePost = () => {
               setImageUploadError(null);
               setFormData({ ...formData, image: downloadURL });
             });
-            console.log("upload completed");
+            // console.log("upload completed");
           }
         );
       }
@@ -98,7 +98,7 @@ const CreatePost = () => {
       } else {
         setPublishError(null);
         navigate(`/post/${data.slug}`);
-        console.log(data);
+        // console.log(data);
       }
     } catch (error) {
       setPublishError("Failed to create post");
