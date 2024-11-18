@@ -107,14 +107,19 @@ const Header = () => {
               arrowIcon={false}
               inline
               label={
-                <Avatar
+                <img
                   alt="avatar"
                   crossOrigin="anonymous"
                   src={
                     currentUser.profilePicture ||
-                    currentUser.rest.profilePicture
+                    currentUser.rest?.profilePicture
                   }
-                  rounded
+                  style={{
+                    borderRadius: "50%", // Makes the image circular
+                    width: "40px", // Adjust size to match your design
+                    height: "40px",
+                    objectFit: "cover", // Ensures image aspect ratio is preserved
+                  }}
                 />
               }
             >
