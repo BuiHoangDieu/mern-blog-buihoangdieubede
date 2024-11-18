@@ -19,7 +19,7 @@ const CommentSection = (postId) => {
 
   // console.log(listComments);
   const postIdQuery = postId.postId;
-  console.log(postIdQuery);
+  // console.log(postIdQuery);
   const navigate = useNavigate();
 
   const handleComment = async (e) => {
@@ -86,7 +86,7 @@ const CommentSection = (postId) => {
           return;
         } else {
           const data = await res.json();
-          console.log(data);
+          // console.log(data);
           // setComment((listComments) => {
           //   return comment._id === commentId
           //     ? {

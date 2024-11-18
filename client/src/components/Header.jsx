@@ -71,7 +71,7 @@ const Header = () => {
           className="self-center whitespace-nowrap text-sm sm:text-xl font-bold dark:text-white"
         >
           <span className="px-4 py-2 bg-gradient-to-r from-indigo-500 via-purple-400 to bg-pink-400 rounded-lg text-white">
-            Learn myself
+            Learn With Me
           </span>
         </Link>
 

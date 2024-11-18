@@ -70,7 +70,7 @@ const SignIn = () => {
         <div className="flex-1 p-8">
           <Link to="/" className="text-4xl font-bold dark:text-white">
             <span className="px-4 py-2 bg-gradient-to-r from-indigo-500 via-purple-400 to bg-pink-400 rounded-lg text-white">
-              Learn myself
+              Learn With Me
             </span>
           </Link>
 

@@ -57,7 +57,7 @@ const DashComment = () => {
     }
   };
 
-  console.log(comments);
+  // console.log(comments);
 
   const handleDeleteComment = async () => {
     setShowModal(false);

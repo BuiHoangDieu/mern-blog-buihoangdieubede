@@ -17,7 +17,7 @@ const FooterPage = () => {
           <div className="">
             <Link to="/" className="text-sm font-bold dark:text-white">
               <span className="px-4 py-2 bg-gradient-to-r from-indigo-500 via-purple-400 to bg-pink-400 rounded-lg text-white">
-                Learn myself
+                Learn With Me
               </span>
             </Link>
           </div>
@@ -33,7 +33,7 @@ const FooterPage = () => {
                   100 Projects Javscript
                 </Footer.Link>
                 <Footer.Link href="/about" target="_blank">
-                  Learn Myself Blog
+                  Learn With Me Blog
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
