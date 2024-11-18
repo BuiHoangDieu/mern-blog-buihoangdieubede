@@ -62,6 +62,7 @@ const Comment = ({ comment, onLike, onEdit, onDeleteComment }) => {
     <div className="flex p-4 border-b dark:border-gray-600 text-sm">
       <div className="flex-shrink-0 mr-3">
         <img
+          crossOrigin="anonymous"
           className="w-10 h-10 rounded-full bg-gray-200"
           src={user.profilePicture}
           alt={user.username}

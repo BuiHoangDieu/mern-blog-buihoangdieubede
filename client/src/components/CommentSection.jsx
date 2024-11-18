@@ -159,6 +159,7 @@ const CommentSection = (postId) => {
             Signed in as {currentUser.rest.username}
           </p>
           <img
+            crossOrigin="anonymous"
             className="w-4 h-4 object-cover rounded-full"
             src={currentUser.rest.profilePicture}
             alt="profile"
