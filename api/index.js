@@ -11,7 +11,14 @@ import path from "path";
 
 dotenv.config();
 const app = express();
-app.use(cors());
+const corsOptions = {
+  origin: "*", // Allow all origins
+  methods: ["GET", "POST", "PUT", "DELETE"], // Allow specific methods
+  allowedHeaders: ["Content-Type", "Authorization"], // Allow specific headers
+  credentials: true, // Allow credentials
+};
+
+app.use(cors(corsOptions));
 
 app.use(express.json());
 app.use(cookieParser());
