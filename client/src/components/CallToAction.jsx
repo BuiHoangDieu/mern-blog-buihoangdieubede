@@ -26,7 +26,10 @@ const CallToAction = () => {
         </Button>
       </div>
       <div className="p-6">
-        <img src="https://files.fullstack.edu.vn/f8-prod/courses/13/13.png" />
+        <img
+          crossOrigin="anonymous"
+          src="https://files.fullstack.edu.vn/f8-prod/courses/13/13.png"
+        />
       </div>
     </div>
   );

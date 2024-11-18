@@ -37,7 +37,7 @@ const DashUsers = () => {
     ) {
       fetchUsers();
     }
-  }, [currentUser?.user?._id || currentUser?._id || currentUser?.rest?._id]);
+  }, [currentUser.rest._id]);
 
   const handleShowMore = async () => {
     const startIndex = users.length;
@@ -104,6 +104,7 @@ const DashUsers = () => {
                     <Table.Cell>{user.email}</Table.Cell>
                     <Table.Cell>
                       <img
+                        crossOrigin="anonymous"
                         src={user.profilePicture}
                         className="w-20  object-cover "
                       />

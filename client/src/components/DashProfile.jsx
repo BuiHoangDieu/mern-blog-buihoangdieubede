@@ -243,6 +243,7 @@ const DashProfile = () => {
             />
           )}
           <img
+            crossOrigin="anonymous"
             src={
               imageFileUrl ||
               currentUser?.user?.profilePicture ||

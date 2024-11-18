@@ -92,6 +92,7 @@ const PostPage = () => {
         </Link>
         <div>
           <img
+            crossOrigin="anonymous"
             src={post && post.image}
             alt={post && post.title}
             className="max-w-[600px] max-h-[400px] object-cover mt-4 mx-auto"

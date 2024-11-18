@@ -109,6 +109,7 @@ const Header = () => {
               label={
                 <Avatar
                   alt="avatar"
+                  crossOrigin="anonymous"
                   img={
                     currentUser.profilePicture ||
                     currentUser.rest.profilePicture
