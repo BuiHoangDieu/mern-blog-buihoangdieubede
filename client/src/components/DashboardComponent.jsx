@@ -198,6 +198,7 @@ const DashboardComponent = () => {
                   <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                     <Table.Cell>
                       <img
+                        crossOrigin="anonymous"
                         src={post.image}
                         alt="post"
                         className="w-10 h-10 rounded-sm bg-gray-500"
